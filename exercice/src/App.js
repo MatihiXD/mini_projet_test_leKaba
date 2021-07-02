@@ -15,9 +15,8 @@ function App() {
     tmp.push(data);
     const imgs = tmp[0].split("|");
     imagesList.push(imgs);
-    // for (let k = 0; k < imgs.length; k++)
-    //   console.log(imgs[k]);
   }
+
   // process CSV data
   const processData = dataString => {
     const dataStringLines = dataString.split(/\r\n|\n/);
